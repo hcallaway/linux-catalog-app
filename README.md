@@ -100,3 +100,13 @@ as ubuntu user: ```cd /home/grader && sudo mkdir .ssh```
 8. ```GRANT ALL PRIVILEGES ON DATABASE catalog TO catalog;```
 9. ```\q```
 10. ```exit```
+
+
+### Helpful Resources
+Massive thanks to JungleBadger for his debugging file [here](https://github.com/jungleBadger/-nanodegree-linux-server-troubleshoot/tree/master/python3%2Bvenv%2Bwsgi) and his setup guide [here](https://github.com/jungleBadger/-nanodegree-linux-server/blob/master/README.md), this two items were critical for me getting past roadblocks
+
+Also referenced:
+* https://alonavarshal.com/blog/flask-on-lightsail-aws/
+* https://github.com/SteveWooding/fullstack-nanodegree-linux-server-config
+* [Switching to Postgres](https://docs.sqlalchemy.org/en/13/core/engines.html#postgresql)
+* The random answer in Udacity Knowledge that I can't find that pointed the way toward the ```tails``` command for the Apache logs, infinite time and lifesaver
